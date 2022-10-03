@@ -1,0 +1,27 @@
+.Container{
+    padding: 3px;
+}
+
+.Card{
+    /* border: 1px solid lightgray; */
+    border-radius: 20px;
+    background-color: #EEF2E6;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.5);    
+}
+.CardW{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background-color: rgb(84, 84, 84);
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.5);    
+}
+
+.Temps{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Temps p{
+    font-size: 14px;
+    color: lightgray;
+}
